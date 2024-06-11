@@ -4,7 +4,9 @@
 ## from picamera import (PiCamera)
 from time import sleep
 import datetime  # registers the raspberry pi's internal clock (slippage of 103.8 seconds per month, or a little less than 2 minutes without internet connection)
-
+#import board
+#import adafruit_dht
+#python3 -m pip install adafruit-circuitpython-dht ..Install package
 ##camera = PiCamera()
 timestamp = datetime.datetime.now().strftime(
     "%d/%m/%Y/%H/%M/%S"
